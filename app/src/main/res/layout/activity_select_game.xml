@@ -1,0 +1,89 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_easy_select_game_activity"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:background="#ffff00"
+            android:gravity="center"
+            android:text="初级模式"
+            android:textColor="#ff00"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btn_middle_select_game_activity"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:background="#ffff00"
+            android:gravity="center"
+            android:text="中级模式"
+            android:textColor="#ff00"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btn_hard_select_game_activity"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:background="#ffff00"
+            android:gravity="center"
+            android:text="高级模式"
+            android:textColor="#ff00"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffff00"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="音乐开关"
+            android:textColor="#ff00"
+            android:textSize="20sp"/>
+
+        <ToggleButton
+            android:id="@+id/tb_settings_fragment"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/accept_button_switch_on_and_off"
+            android:checked="true"
+            android:textOff=""
+            android:textOn=""/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

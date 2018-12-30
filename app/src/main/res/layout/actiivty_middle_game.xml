@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainbg">
+
+    <TextView
+        android:id="@+id/tv_type_play_game_activity"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="中级模式"
+        android:textColor="@color/colorAccent"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/buttons_bg1"
+        android:src="@drawable/buttons_play"/>
+
+    <ImageView
+        android:id="@+id/title_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/play_btn"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dip"
+        android:src="@drawable/title"/>
+
+    <ImageView
+        android:id="@+id/clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip"
+        android:src="@drawable/clock"
+        android:visibility="gone"/>
+
+    <SeekBar
+        android:id="@+id/timer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/clock"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="10dip"
+        android:paddingTop="8dip"
+        android:visibility="gone"
+        />
+
+    <whu.iss.sric.view.MiddleGameView
+        android:id="@+id/game_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timer"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:paddingBottom="10dip"
+        >
+
+        <ImageButton
+            android:id="@+id/refresh_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/refresh"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/text_refresh_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="3"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/tip_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/light_bulb"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/text_tip_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="3"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+</RelativeLayout>

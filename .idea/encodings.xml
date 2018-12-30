@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/whu/iss/sric/android/PlayEastGameActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/whu/iss/sric/android/PlayGameActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/whu/iss/sric/android/PlayHardGameActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/whu/iss/sric/android/PlayMiddleGameActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/whu/iss/sric/bean/DBScoreBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/whu/iss/sric/view/BoardView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/whu/iss/sric/view/EasyBoardView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/whu/iss/sric/view/GameView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/whu/iss/sric/view/HardBoardView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/whu/iss/sric/view/MiddleBoardView.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
